@@ -53,7 +53,7 @@
 
             while ($i -le $IncCount)
             {
-                $UserPool = @("Duncan Lindquist", "John Hennen", "Bryan Schrippe", "Christopher Mank", "Guy Doggett", "John Hubert", "Lee Berg", "Matthew Selle", "Michael Dugan", "Nathan Lasnoski", "Rob Plank", "Ryan Ephgrave", "Steve Buchanan", "Steve Seibold", "Chiyo Odika", "Marcus Musial", "Matt Herman")
+                $UserPool = @("")
                 
                 $CRUser = $UserPool | Get-Random
                 
